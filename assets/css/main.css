@@ -1341,132 +1341,93 @@ section {
 .projects .portfolio-content:hover img {
   transform: scale(1.1);
 }
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .feature-box {
-  padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  transition: 0.3s;
-  height: 100%;
+/* why Us Section
+--------------------------------*/
+#why {
+  background: #fff;
+  padding: 60px 0;
 }
 
-.features .feature-box h3 {
-  font-size: 18px;
-  color: #012970;
+#why .why-container .background {
+  margin: 20px 0;
+}
+
+#why .why-container .content {
+  background: #fff;
+}
+
+#why .why-container .title {
+  color: #333;
   font-weight: 700;
-  margin: 0;
+  font-size: 32px;
 }
 
-.features .feature-box i {
-  line-height: 0;
-  background: #ecf3ff;
-  padding: 4px;
-  margin-right: 10px;
+#why .why-container p {
+  line-height: 26px;
+}
+
+#why .why-container p:last-child {
+  margin-bottom: 0;
+}
+
+#why .why-container .icon-box {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#why .why-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #fed816;
+  transition: all 0.3s ease-in-out;
+}
+
+#why .why-container .icon-box .icon i {
+  color: #fed816;
   font-size: 24px;
-  border-radius: 3px;
-  transition: 0.3s;
+  line-height: 0;
 }
 
-.features .feature-box:hover i {
-  background: #4154f1;
+#why .why-container .icon-box:hover .icon {
+  background: #fed816;
+}
+
+#why .why-container .icon-box:hover .icon i {
   color: #fff;
 }
 
-.features .feture-tabs {
-  margin-top: 120px;
-}
-
-.features .feture-tabs h3 {
-  color: #012970;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-  .features .feture-tabs h3 {
-    font-size: 28px;
-  }
-}
-
-.features .feture-tabs .nav-pills {
-  border-bottom: 1px solid #eee;
-}
-
-.features .feture-tabs .nav-link {
-  background: none;
-  text-transform: uppercase;
-  font-size: 15px;
+#why .why-container .icon-box .title {
+  margin-left: 80px;
   font-weight: 600;
-  color: #012970;
-  padding: 12px 0;
-  margin-right: 25px;
-  margin-bottom: -2px;
-  border-radius: 0;
-}
-
-.features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
-}
-
-.features .feture-tabs .tab-content h4 {
+  margin-bottom: 5px;
   font-size: 18px;
-  margin: 0;
-  font-weight: 700;
-  color: #012970;
 }
 
-.features .feture-tabs .tab-content i {
+#why .why-container .icon-box .title a {
+  color: #283d50;
+}
+
+#why .why-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#why .why-extra {
+  padding-top: 60px;
+}
+
+#why .why-extra h4 {
+  font-weight: 600;
   font-size: 24px;
-  line-height: 0;
-  margin-right: 8px;
-  color: #4154f1;
 }
-
-.features .feature-icons {
-  margin-top: 40px;
-}
-
-.features .feature-icons h3 {
-  color: #012970;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .features .feature-icons h3 {
-    font-size: 28px;
-  }
-}
-
-.features .feature-icons .content .icon-box {
-  display: flex;
-}
-
-.features .feature-icons .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  color: #012970;
-}
-
-.features .feature-icons .content .icon-box i {
-  font-size: 44px;
-  line-height: 44px;
-  color: #0245bc;
-  margin-right: 15px;
-}
-
-.features .feature-icons .content .icon-box p {
-  font-size: 15px;
-  color: #848484;
-}
-
 /*--------------------------------------------------------------
 # price
 --------------------------------------------------------------*/
