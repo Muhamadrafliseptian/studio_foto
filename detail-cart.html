@@ -120,7 +120,14 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="price-info">
-                <h3>History Pemesanan</h3>
+                <div class="row">
+                    <div class="col-6"><h4>Detail Pemesanan</h4>
+                    </div>
+                    <div class="col-6  text-end"><a href="cart.html" class="text-primary">Ubah Data Pemesanan</a>
+                    </div>
+                    <hr class="mb-2">
+                </div>
+                
                 <div class="row">
                   <div class="col-4">
                     <div class="mb-1">
@@ -151,19 +158,31 @@
                   <div class="col-4">
                     <div class="mb-1">
                     <label for="" class="form-label text-warning w-500"
+                      >Pilih Metode Pembayaran</label
+                    >
+                   <form action="" class="mb-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Bank BCA
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Bank BNI
+                        </label>
+                        </div>
+                   </form>
+                    <label for="" class="form-label text-warning w-500"
                       >Total Pembayaran</label
                     >
                     <h6>Rp.20.000</h6>
-                    <label for="" class="form-label text-warning w-500"
-                      >Metode Pembayaran</label
-                    >
-                    <h6>Bank BCA</h6>
                   </div>
                   </div>
                   <hr class="mt-3" style="border-top: dotted 3px;">
-                  <h3 class="mt-3">Status Pemesananan : <span class="bg-warning">Belum Lunas</span></h3>
                   <div class="text-end">
-                  <a href="" class="mt-3 btn btn-sm btn-success w-25"><i class="fas fa-download"></i> Download Bukti Pemesanan</a>
+                  <a href="history-cart.html" class="mt-3 btn btn-sm btn-success w-25"><i class="fas fa-dollar-sign"></i> Bayar Sekarang</a>
                   </div>
                 </div>
               </div>
