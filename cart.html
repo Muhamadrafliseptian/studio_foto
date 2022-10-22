@@ -118,95 +118,164 @@
       <section id="price-details" class="price-details">
         <div class="container">
           <div class="row gy-4">
-            <div class="col-lg-8">
-              <div class="price-details-slider swiper">
-                <div class="align-items-center">
-                  <div class="">
-                    <img src="assets/img/hero-carousel/1.jpeg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
+            <div class="col-lg-12">
               <div class="price-info">
-                <h3>Isi Data Diri</h3>
+                <h3>Isi Data Pemesanan</h3>
                 <form>
-                  <div class="mb-1">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Nama Pemesan<span class="text-danger"> *</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id=""
-                      aria-describedby=""
-                    />
-                  </div>
-                  <div class="mb-1">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Nomor WA<span class="text-danger"> *</span></label
-                    >
-                    <input
-                      type="phone"
-                      class="form-control"
-                      id=""
-                      aria-describedby=""
-                    />
-                  </div>
-                  <div class="mb-1">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Nama Pemesan<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id=""
+                          aria-describedby=""
+                        />
+                      </div>
+                      <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Alamat email<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id=""
+                          aria-describedby=""
+                        />
+                      </div>
+
+                      <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Nomor WA<span class="text-danger"> *</span></label
+                        >
+                        <input
+                          type="number"
+                          class="form-control"
+                          id=""
+                          aria-describedby=""
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class="mb-1 dropdown">
+                        <label for="" class="form-label"
+                          >Pilih Jenis Jasa<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          data-bs-toggle="dropdown"
+                          id=""
+                          aria-describedby=""
+                        />
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">Fotografi</li>
+                          <li class="dropdown-item">Videografi</li>
+                          <li class="dropdown-item">Broadcasting</li>
+                        </ul>
+                      </div>
+
+                      <div class="mb-1 dropdown">
+                        <label for="" class="form-label"
+                          >Pilih Jenis Paket<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          data-bs-toggle="dropdown"
+                          id=""
+                          aria-describedby=""
+                        />
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">Outdoor</li>
+                          <li class="dropdown-item">Indoor</li>
+                        </ul>
+                      </div>
+                      <div class="mb-1 dropdown">
+                        <label for="" class="form-label"
+                          >Pilih Hasil Foto<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          data-bs-toggle="dropdown"
+                          id=""
+                          aria-describedby=""
+                        />
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">Buku Album</li>
+                          <li class="dropdown-item">Hanya File</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                       <div class="mb-1">
+                        <label for="" class="form-label"
+                          >Lokasi Pemotretan<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id=""
+                          aria-describedby=""
+                        />
+                      </div>
+                      <div class="mb-1">
+                        <label for="" class="form-label"
+                          >Tanggal Booking Jasa<span class="text-danger">
+                            *</span
+                          ></label
+                        >
+                        <input
+                          type="date"
+                          class="form-control"
+                          id=""
+                          aria-describedby=""
+                        />
+                      </div>
+
+                      <div class="mb-1">
                     <label for="" class="form-label"
-                      >Tanggal Booking Jasa<span class="text-danger">
-                        *</span
-                      ></label
+                      >Pilih Metode Pembayaran</label
                     >
-                    <input
-                      type="date"
-                      class="form-control"
-                      id=""
-                      aria-describedby=""
-                    />
-                  </div>
-                  <div class="mb-1 dropdown">
-                    <label for="" class="form-label"
-                      >Pilih Jenis Jasa<span class="text-danger">
-                        *</span
-                      ></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      data-bs-toggle="dropdown"
-                      id=""
-                      aria-describedby=""
-                    />
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item">Fotografi</li>
-                      <li class="dropdown-item">Videografi</li>
-                      <li class="dropdown-item">Broadcasting</li>
-                    </ul>
+                     
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Bank BCA
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Bank BNI
+                        </label>
+                        </div>
+                    </div>
                   </div>
                 </form>
-                <div class="mt-4">
-                  <a
-                    href="kebijakan.html"
-                    class="text-center"
-                    style="
-                      font-size: 12px;
-                      font-weight: 500;
-                      text-decoration: none;
-                      color: rgb(0, 25, 151);
-                      text-align: center;
-                    "
-                  >
-                    baca syarat dan ketentuan terlebih dahulu.
-                    <span>Klik di sini</span>
-                  </a>
-                </div>
               </div>
-              <div class="price-description">
+              <hr class="mb-2" style="border-top: dotted 2px;">
+              <div class="text-end">
                 <a
-                  href="detail_cart.html"
-                  class="btn btn-sm btn-warning w-100 text-light"
+                  href="detail-cart.html"
+                  class="btn btn-sm btn-warning w-25 text-light"
                   >Check Out</a
                 >
               </div>
