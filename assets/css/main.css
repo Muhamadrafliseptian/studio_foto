@@ -118,7 +118,7 @@ section {
 # book Section
 --------------------------------------------------------------*/
 .book .info-container {
-  background-color: var(--color-primary);
+  background-color: rgb(0, 223, 194);
   height: 100%;
   padding: 20px;
   border-radius: 10px 0 0 10px;

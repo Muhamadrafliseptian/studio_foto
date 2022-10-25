@@ -119,39 +119,31 @@
       <div class="container price-details">
         <div class="book row gx-lg-0 gy-4">
           <div class="col-lg-4">
-            <div
-              class="info-container d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="info-item d-flex">
-                <i class="fas fa-user"></i>
-                <div>
-                  <h4>Perhatikan</h4>
-                  <p>Isi Semua Form</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-              <div class="info-item d-flex">
-                <i class="fas fa-user"></i>
-                <div>
-                  <h4>Perhatikan</h4>
-                  <p>Isi Semua Form</p>
-                </div>
-              </div>
-              <div class="info-item d-flex">
-                <i class="fas fa-user"></i>
-                <div>
-                  <h4>Perhatikan</h4>
-                  <p>Isi Semua Form</p>
-                </div>
-              </div>
-              <div class="info-item d-flex">
-                <i class="fas fa-user"></i>
-                <div>
-                  <h4>Perhatikan</h4>
-                  <p>Isi Semua Form</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
+            <div class="price-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Outdoor</li>
+                <li><strong>Client</strong>: ASU Company</li>
+                <li><strong>Project date</strong>: 01 March, 2020</li>
+              </ul>
+            </div>
+            <div class="price-info mt-3">
+              <h3>Benefit Yang Didapatkan</h3>
+              <ul>
+                <li>
+                  <strong><i class="fas fa-user"></i></strong> Hasil Foto Cepat
+                  diproses
+                </li>
+                <li>
+                  <strong><i class="fas fa-angle-down"></i></strong> Outdoor
+                </li>
+                <li>
+                  <strong><i class="fas fa-user"></i></strong> Outdoor
+                </li>
+                <li>
+                  <strong><i class="fas fa-user"></i></strong> Outdoor
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -165,9 +157,14 @@
               <div class="row">
                 <h3>Isi Data Pemesanan</h3>
                 <hr style="border-top: dotted 3px" />
+                <div class="alert alert-success" role="alert">
+                  <i class="fas fa-check"></i>
+                  Yeay, kamu telah memilih paket outdoor, silahkan lanjutkan isi
+                  form
+                </div>
                 <div class="col-md-6 form-group">
                   <label for="exampleInputEmail1" class="form-label"
-                    >Tanggal Booking<span class="text-danger"> *</span></label
+                    >Nama Pemesan<span class="text-danger"> *</span></label
                   >
                   <input
                     type="text"
@@ -215,70 +212,7 @@
                     required
                   />
                 </div>
-              </div>
-              <h3>Data Jenis Paket</h3>
-              <hr style="border-top: dotted 3px" />
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <div class="dropdown">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Jenis Jasa<span class="text-danger"> *</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      data-bs-toggle="dropdown"
-                      placeholder="Pilih Jenis Jasa"
-                      required
-                    />
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item">Fotografi</li>
-                      <li class="dropdown-item">Videografi</li>
-                      <li class="dropdown-item">Broadcasting</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <div class="dropdown">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Jenis Paket<span class="text-danger"> *</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      data-bs-toggle="dropdown"
-                      placeholder="Pilih Jenis Paket"
-                      required
-                    />
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item">Outdoor</li>
-                      <li class="dropdown-item">Indoor</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <div class="dropdown">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Hasil Jasa<span class="text-danger"> *</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      data-bs-toggle="dropdown"
-                      placeholder="Pilih Jenis Hasil Jasa"
-                      required
-                    />
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-item">Album</li>
-                      <li class="dropdown-item">File Only</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <div class="col-md-12 form-group mt-3 mt-md-0">
                   <label for="exampleInputEmail1" class="form-label"
                     >Lokasi Pemotretan/Videografi<span class="text-danger">
                       *</span
@@ -292,25 +226,21 @@
                     required
                   />
                 </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  rows="7"
-                  placeholder="Catatan atau pertanyaan opsional"
-                  required
-                ></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
+
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="7"
+                    placeholder="Catatan atau pertanyaan opsional"
+                    required
+                  ></textarea>
                 </div>
               </div>
               <div class="text-center">
-                <button type="submit">Book Now</button>
+                <button type="submit" class="btn-sm btn btn-warning w-25 mt-2">
+                  Book Now
+                </button>
               </div>
             </form>
           </div>
