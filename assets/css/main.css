@@ -114,6 +114,81 @@ section {
   }
 }
 
+/*Rating*/
+.rate-foto {
+  float: center;
+  height: 46px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.rate-foto:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate-foto:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ccc;
+}
+.rate-foto:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate-foto > input:checked ~ label {
+  color: #ffc700;
+}
+.rate-foto:not(:checked) > label:hover,
+.rate-foto:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate-foto > input:checked + label:hover,
+.rate-foto > input:checked + label:hover ~ label,
+.rate-foto > input:checked ~ label:hover,
+.rate-foto > input:checked ~ label:hover ~ label,
+.rate-foto > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+/*Rating-Fotografer */
+.rate {
+  float: center;
+  height: 46px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
 /*--------------------------------------------------------------
 # book Section
 --------------------------------------------------------------*/
