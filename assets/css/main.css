@@ -1711,6 +1711,16 @@ section {
 .projects .portfolio-content:hover img {
   transform: scale(1.1);
 }
+
+#video .card .video {
+  border-radius: 12px 12px 0px 0px;
+}
+
+#video .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
 /* why Us Section
 --------------------------------*/
 #why {
